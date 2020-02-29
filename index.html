@@ -6,7 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="style.css">
         <!-- Bootstrap CSS -->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,37 +18,118 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-sm navbar-custom">
-            <a href="#" class="navbar-brand"> <i class="fa fa-home"></i> Home</a>
+        <nav class="navbar navbar-inverse navbar-expand-sm navbar-custom" data-spy="affix" data-offset-top="197">
+            <a href="#section1" class="navbar-brand"> <i class="fa fa-home"></i> Home</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse mx-auto w-auto justify-content-center" id="navbarCollapse">
-                <ul class="navbar-nav">
+                <ul class="nav navbar-nav">
                     <li class="navbar-item">
-                        <a href="#" class="nav-link"><i class="material-icons">mood</i></i>About Me</a>
+                        <a href="#section2" class="nav-link"><i class="material-icons">mood</i></i>About Me</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link"><i class="material-icons">school</i></i> Education</a>
+                        <a href="#section3" class="nav-link"><i class="material-icons">school</i></i> Education</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link"><i class="fas fa-hammer"></i> Technical Skills</a>
+                        <a href="#section4" class="nav-link"><i class="fas fa-hammer"></i> Technical Skills</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link">Experience</a>
+                        <a href="#section5" class="nav-link">Experience</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#section6" class="nav-link">Projects</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
+        <!-- <script src="app.js"></script> -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <h1>hello !</h1>
+        <div id="section1">
+          <!-- <h1>Section 1</h1>
+            <p>Try to scroll this page and look at the navigation bar while scrolling!</p> -->
+            <div class="container bg-no-overlay col-md-12">
+              <div class="row text-center centered">
+                      <div class="intro">
+		                  <h1 style="font-size: 75.2px; font-weight:900">I'm Vivek Kashid.<br></h1>
+                      <br>
+                      </div>
+                      <h3 style="font-size: 19.5px;font-family: 'Montserrat';">Student in Software Engineering with experience in
+                        <b>software design</b> and <b>application development</b>. Proficient in <span>C++,Java</span> with excellent communication and interpersonal skills.
+                        A fast learner with strong time management ,multi-tasking skills, problem solving skills with an analytical mindset.
+                      </h3>
+	            </div>
+            </div>
+        </div>
+
+
+        <div id="about" class="container-fluid">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic" src="https://www.styleshout.com/templates/preview/Ceevee10/images/profilepic.jpg" alt="">
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Jonathan Doe</span><br>
+						   <span>1600 Amphitheatre Parkway<br>
+						         Mountain View, CA 94043 US
+                     </span><br>
+						   <span>(123)456-7890</span><br>
+                     <span>anyone@website.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+        <div id="section3" class="container-fluid">
+          <h1>Section 3</h1>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section4" class="container-fluid">
+          <h1>Section 4 Submenu 1</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section5" class="container-fluid">
+          <h1>Section 4 Submenu 2</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
     </body>
 </html>
